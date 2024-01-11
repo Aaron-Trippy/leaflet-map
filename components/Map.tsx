@@ -58,22 +58,6 @@ const center:[number, number] = [49.25299, -123.00600]
 const Map = () => {
     return(
         <>
-            <header style={{
-                width: '100%',
-                height: 50,
-                backgroundColor: '#fff',
-                color: '#0d0d0d',
-                fontSize: 20,
-                fontWeight: 'bold',
-                display: 'flex',
-                alignItems: 'center',
-                padding: 20,
-                gap: 10,
-                }}>
-                <img src="/images/gobble.png" />
-                <h1>Gobble Mops</h1>
-            </header>
-
             <MapContainer
                 style={{height: "100vh"}}
                 center={[49.24966, -123.00934]} zoom={14} scrollWheelZoom={true}
